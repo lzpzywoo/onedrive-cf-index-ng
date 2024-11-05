@@ -184,7 +184,7 @@ const FolderGridLayout = ({
               )}
             </div>
 
-            <Link href={getItemPath(c.name)} passHref>
+            <Link href={getItemPath(c.name)} passHref target="_blank">
               <GridItem c={c} path={getItemPath(c.name)} />
             </Link>
           </div>
